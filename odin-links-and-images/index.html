@@ -11,20 +11,23 @@
         <!-- target="_blank" or "_self" for tabs -->
         <!-- noopener noreferrer for security -->
         <a href="https://www.theodinproject.com/about" target="_blank" rel="noopener noreferrer">Click Me!</a>
-        
-        <h3>Types of Link</h3>
+	<h2>Links & Images<h2>
+	<h3>Types of Link</h3>
         <ol>
             <!-- other site -->
             <li><h4>Absolute Link</h4></li>
             <ul>
                 <li>"protocol://domain/path"</li>
                 <li><a href="https://www.theodinproject.com/about">https://www.theodinproject.com/about</a></li>
+		<li><img src="https://www.theodinproject.com/mstile-310x310.png" alt="The Odin Project" height="210" width="210"></li>
             </ul>
             <!-- same site -->
             <li><h4>Relative Link</h4></li>
             <ul>
                 <li>"path"</li>
-                <li><a href="about.html">about.html</a></li>
+		<!-- "./" current directory -->
+                <li><a href="./pages/about.html">about.html</a></li>
+		<li><img src="./images/dog.jpg" alt="Dog" height="210" width="210"></li>
             </ul>
         </ol>
     </body>
